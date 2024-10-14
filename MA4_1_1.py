@@ -31,7 +31,7 @@ def approximate_pi(n):
     print("Approximation of pi with", n, "dots:", pi)
     plt.title("Approximation of pi with " + str(n) + " dots")
     plt.axis('equal')
-    plt.show()
+    #plt.show()
     plt.savefig('.\pi_approx_' + str(n) + '.png')
     return
     
