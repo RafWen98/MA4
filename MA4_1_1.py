@@ -33,7 +33,7 @@ def approximate_pi(n):
     plt.axis('equal')
     #plt.show()
     plt.savefig('.\pi_approx_' + str(n) + '.png')
-    return
+    return pi
     
 def main():
     dots = [1000, 10000, 100000]
