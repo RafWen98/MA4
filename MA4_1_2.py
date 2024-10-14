@@ -48,14 +48,8 @@ def main():
     n = 100000
     d = 2
     sphere_volume(n,d)
-
-def testmain():
-    n = 10000
-    d = 3
-    sphere_volume(n,d)
     hypersphere_exact(n,d)
-
+    sphere_vol_oneliner_for_lulz(n,d)
 
 if __name__ == '__main__':
-    testmain()
-	#main()
+	main()
